@@ -22,16 +22,5 @@ How It Works:
 4. If the total price is below $500, the request is approved.
 5. A summary is displayed with all entered information and status.
 
-Running the Program:
-
-Make sure you have Python installed. To run the program:
-
-1. Open a terminal or command prompt.
-2. Navigate to the folder containing the Python file.
-3. Run the command:
-   python filename.py
 
 
-
-Requirements:
-- Python 3.x
