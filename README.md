@@ -1,26 +1,31 @@
-Requisition System - Python Console Application
+# Requisition System
 
-Overview:
+This is a simple Python-based requisition system for staff to request items and check whether the request is approved based on the total cost.
 
-This is a basic Python program that simulates a staff requisition system. 
-Staff members can input their personal details, request items, and get 
-automatic approval if the total cost is below a certain limit.
+---
 
-Features:
+## How It Works
 
-- Collects staff information (name, ID, date).
-- Allows users to enter item names and their prices.
-- Automatically calculates the total cost of all items.
-- Approves requisitions if total cost is below $500.
-- Displays a summary including approval reference.
+1. **Enter Staff Info**
+   - The program will ask for the staff’s date, ID, and name.
 
-How It Works:
+2. **Add Items**
+   - You will be asked how many items you want to request.
+   - For each item, enter its name and price.
 
-1. The program asks for the date, staff ID, and staff name.
-2. It then asks how many items the staff wants to request.
-3. For each item, the user enters a name and price.
-4. If the total price is below $500, the request is approved.
-5. A summary is displayed with all entered information and status.
+3. **Approval Check**
+   - If the total cost is less than $500, the request is **Approved**.
+   - If it's $500 or more, the request remains **Pending**.
 
+4. **Get Requisition Summary**
+   - View the full summary, including:
+     - Date
+     - Requisition ID
+     - Staff Info
+     - Total Cost
+     - Status (Approved or Pending)
+     - Approval Reference Number
+
+---
 
 
