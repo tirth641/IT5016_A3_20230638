@@ -31,7 +31,7 @@ Make sure you have Python installed. To run the program:
 3. Run the command:
    python filename.py
 
-(Replace "filename.py" with the actual name of your Python file.)
+
 
 Requirements:
 - Python 3.x
